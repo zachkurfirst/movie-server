@@ -33,7 +33,7 @@ app.use("/movies", moviesRouter);
 // ROUTES
 // create a test route
 app.get("/", (req, res) => {
-  res.send("MERN Hackathon - Movies");
+  res.redirect("/movies");
 });
 
 // LISTENER
